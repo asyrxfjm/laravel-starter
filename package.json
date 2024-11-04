@@ -1,0 +1,50 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "vue-tsc && vite build",
+		"dev": "vite",
+		"format": "prettier . --write"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.13.0",
+		"@iconify-json/radix-icons": "^1.2.1",
+		"@iconify/vue": "^4.1.2",
+		"@inertiajs/vue3": "^1.0.0",
+		"@prettier/plugin-php": "^0.22.2",
+		"@tailwindcss/forms": "^0.5.3",
+		"@typescript-eslint/eslint-plugin": "^8.11.0",
+		"@typescript-eslint/parser": "^8.11.0",
+		"@vitejs/plugin-vue": "^5.0.0",
+		"@vue/eslint-config-prettier": "^10.1.0",
+		"autoprefixer": "^10.4.12",
+		"axios": "^1.7.4",
+		"concurrently": "^9.0.1",
+		"eslint": "^9.13.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"eslint-plugin-vue": "^9.29.1",
+		"laravel-vite-plugin": "^1.0",
+		"postcss": "^8.4.31",
+		"prettier": "^3.3.3",
+		"tailwindcss": "^3.2.1",
+		"typescript": "^5.5.3",
+		"vite": "^5.0",
+		"vue": "^3.4.0",
+		"vue-tsc": "^2.0.24"
+	},
+	"dependencies": {
+		"@formkit/auto-animate": "^0.8.2",
+		"@tanstack/vue-table": "^8.20.5",
+		"@vee-validate/zod": "^4.13.2",
+		"@vueup/vue-quill": "^1.2.0",
+		"@vueuse/core": "^11.1.0",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.1",
+		"lucide-vue-next": "^0.453.0",
+		"radix-vue": "^1.9.7",
+		"tailwind-merge": "^2.5.4",
+		"tailwindcss-animate": "^1.0.7",
+		"vee-validate": "^4.13.2",
+		"zod": "^3.23.8"
+	}
+}
