@@ -1,6 +1,6 @@
 type Filters = {
-	search: string;
-	sort: string;
-	sortBy: string;
-	page: number;
+    search: string;
+    sort: string;
+    sortBy: string;
+    page: number;
 };

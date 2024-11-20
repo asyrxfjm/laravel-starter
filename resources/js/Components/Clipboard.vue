@@ -8,15 +8,15 @@ const { text, copy, copied, isSupported } = useClipboard({ source });
 </script>
 
 <template>
-	<div v-if="isSupported">
-		<Button @click="copy(source)">
-			<!-- by default, `copied` will be reset in 1.5s -->
-			<span v-if="!copied">Copy</span>
-			<span v-else>Copied!</span>
-		</Button>
-		<p>
-			Current copied: <code>{{ text || 'none' }}</code>
-		</p>
-	</div>
-	<p v-else>Your browser does not support Clipboard API</p>
+    <div v-if="isSupported">
+        <Button @click="copy(source)">
+            <!-- by default, `copied` will be reset in 1.5s -->
+            <span v-if="!copied">Copy</span>
+            <span v-else>Copied!</span>
+        </Button>
+        <p>
+            Current copied: <code>{{ text || 'none' }}</code>
+        </p>
+    </div>
+    <p v-else>Your browser does not support Clipboard API</p>
 </template>
